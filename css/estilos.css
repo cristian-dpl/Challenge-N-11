@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html{
+    background-color: #4C7B9D;
+    background-image: url(../img/ciudad.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+
+h1{
+    width: 100%;
+    padding: 1rem;
+    background-color: #DF3448;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 2px 2px  #000;
+    margin-bottom: 2rem;
+    position: fixed;
+    top: 0;
+}
+
+h1, h2{
+    font-family: "Lobster", sans-serif;
+
+}
+
+h2, p{
+    background-color: #ACDADC;
+    padding: 1rem 2rem 0 2rem;
+    width: 80%;
+    margin: auto  ;
+}
+
+h2 + p{
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
+
+h2 + p::first-letter{
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+h2 + p::before{
+    content: '-';
+}
+
+h2 + p::after{
+    content: '-';
+}
+
+h2:first-of-type{
+    margin: 9% auto 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h2{
+    color: #DF3448;
+    text-align: center;
+    padding-top: 4rem;
+    text-shadow: 1px 1px 1px #DF3448;
+    font-weight: 500;
+}
+
+p::first-letter{
+    font-variant: small-caps;
+    font-size: 2rem;
+    font-family: "Lobster", sans-serif;
+
+}
+
+p:last-of-type{
+    padding-bottom: 20%;
+    margin-bottom: 10%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+p:nth-child(13)::after{
+    content: url(../img/gato.png);
+    position: absolute; 
+    top: 200%;
+    left: 39%;
+
+}
+
+
+
+
+
+
